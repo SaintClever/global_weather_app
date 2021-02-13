@@ -1,4 +1,4 @@
-#!/Users/anonymous/Desktop/python_projects/weather_app/venv/bin/python3.7
+#!/Users/anonymous/Desktop/python_projects/global_weather_app/venv/bin/python3.7
 
 # $Id: rst2odt.py 5839 2009-01-07 19:09:28Z dkuhlman $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

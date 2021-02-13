@@ -1,8 +1,6 @@
-# weather_app
+# global_weather_app
 
-![weather_app](assets/weather_app.gif)
-
-global weather app
+![global_weather_app](assets/global_weather_app.gif)
 
 **Instructions**
 - python3 main.py

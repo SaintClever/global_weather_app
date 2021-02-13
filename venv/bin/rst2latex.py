@@ -1,4 +1,4 @@
-#!/Users/anonymous/Desktop/python_projects/weather_app/venv/bin/python3.7
+#!/Users/anonymous/Desktop/python_projects/global_weather_app/venv/bin/python3.7
 
 # $Id: rst2latex.py 5905 2009-04-16 12:04:49Z milde $
 # Author: David Goodger <goodger@python.org>

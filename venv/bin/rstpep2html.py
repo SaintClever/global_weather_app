@@ -1,4 +1,4 @@
-#!/Users/anonymous/Desktop/python_projects/weather_app/venv/bin/python3.7
+#!/Users/anonymous/Desktop/python_projects/global_weather_app/venv/bin/python3.7
 
 # $Id: rstpep2html.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

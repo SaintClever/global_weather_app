@@ -1,4 +1,4 @@
-#!/Users/anonymous/Desktop/python_projects/weather_app/venv/bin/python3.7
+#!/Users/anonymous/Desktop/python_projects/global_weather_app/venv/bin/python3.7
 
 # $Id: rst2odt_prepstyles.py 8346 2019-08-26 12:11:32Z milde $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

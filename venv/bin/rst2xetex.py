@@ -1,4 +1,4 @@
-#!/Users/anonymous/Desktop/python_projects/weather_app/venv/bin/python3.7
+#!/Users/anonymous/Desktop/python_projects/global_weather_app/venv/bin/python3.7
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde
