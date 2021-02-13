@@ -1,0 +1,135 @@
+ScreenManager:
+    HomeScreen:
+        id: home
+        name: 'home'
+        canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: 'images/bg.png'
+
+<HomeScreen>:
+    FloatLayout:
+        MDToolbar:
+            title: 'Weather'
+            pos_hint: {'center_x': .5, 'center_y': .959}
+            radius: 0, 0, 0, 75
+
+
+        # user input
+        MDTextField:
+            id: country_name
+            hint_text: 'country name'
+            pos_hint: {'center_x': .25, 'top': .85}
+            size_hint: .30, .1
+            line_color_focus: 1, 1, 1, 1
+
+        MDTextField:
+            id: city_name
+            hint_text: 'city name'
+            pos_hint: {'center_x': .75, 'top': .85}
+            size_hint: .30, .1
+            line_color_focus: 1, 1, 1, 1
+                
+        
+        # search btn
+        MDFillRoundFlatIconButton:
+            text: 'search'
+            pos_hint: {'center_x': .5, 'top': .70}
+            size_hint: .4, .05
+            # icon: 'white-balance-sunny'
+            icon: 'weather-sunny'
+            font_name: 'fonts/lcd.ttf'
+            on_release:
+                root.search()
+
+
+        # output
+        MDLabel:
+            text: root.location
+            font_size: '20dp'
+            pos_hint: {'center_x': .5, 'top': .60}
+            size_hint: 1, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+        MDLabel:
+            text: root.weather
+            font_size: '20dp'
+            pos_hint: {'center_x': .25, 'top': .50}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+        MDLabel:
+            text: root.description
+            font_size: '20dp'
+            pos_hint: {'center_x': .75, 'top': .50}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+
+        # lables
+        MDLabel:
+            markup: True
+            text: '[u]pressure[/u]'
+            font_size: '20dp'
+            pos_hint: {'center_x': .2, 'top': .40}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+        MDLabel:
+            markup: True
+            text: '[u]humidity[/u]'
+            font_size: '20dp'
+            pos_hint: {'center_x': .5, 'top': .40}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+
+        MDLabel:
+            markup: True
+            text: '[u]visibility[/u]'
+            font_size: '20dp'
+            pos_hint: {'center_x': .8, 'top': .40}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+
+        # info
+        MDLabel:
+            text: root.humidity
+            font_size: '20dp'
+            pos_hint: {'center_x': .2, 'top': .30}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+        MDLabel:
+            text: root.pressure
+            font_size: '20dp'
+            pos_hint: {'center_x': .5, 'top': .30}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
+
+        MDLabel:
+            text: root.visibility
+            font_size: '20dp'
+            pos_hint: {'center_x': .8, 'top': .30}
+            size_hint: .4, .05
+            halign: 'center'
+            font_name: 'fonts/lcd.ttf'
+            color: 1, 1, 1, 1
